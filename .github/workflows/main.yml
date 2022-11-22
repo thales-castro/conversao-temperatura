@@ -42,8 +42,8 @@ jobs:
         # uses: docker/build-push-action@c56af957549030174b10d6867f20e78cfd7debc5
         uses: docker/build-push-action@v3.2.0
         with:
-          context: src
-          file: src/Dockerfile
+          context: ./src
+          file: ./src/Dockerfile
           push: true
           tags: |
             thales389/aula-devops-basico-conv-temp:v1
