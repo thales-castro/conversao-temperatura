@@ -54,5 +54,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            thales389/aula-devops-basico-conv-temp:v1
+            thales389/aula-devops-basico-conv-temp:${{github.run_number}}
             thales389/aula-devops-basico-conv-temp:latest
